@@ -4,5 +4,5 @@
 
 void estes17() {
   //replace the following print statement with your favorite food.
-  printf("estes17 likes metals with lots of french fries.\n"); 
+  printf("estes17 likes meals with lots of french fries.\n"); 
 }
