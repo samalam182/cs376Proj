@@ -9,7 +9,7 @@
  *
  */
 #include "robot.h"
-
+#include "dewhitt17.h"
 /**
  * main()
  *
@@ -33,6 +33,6 @@ int main(int argc, const char * argv[])
   robPrintAscii();
 
   robPrintMessage(num);
-
+  dewhitt17();
   return 0;
 }
