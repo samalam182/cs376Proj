@@ -9,7 +9,11 @@
  *
  */
 #include "robot.h"
+
 #include "dewhitt17.h"
+#include "estes17.h"
+
+
 /**
  * main()
  *
@@ -33,6 +37,10 @@ int main(int argc, const char * argv[])
   robPrintAscii();
 
   robPrintMessage(num);
+
   dewhitt17();
+ 
+  estes17();
+
   return 0;
 }
