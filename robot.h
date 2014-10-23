@@ -18,5 +18,5 @@
 
 void robPrintMessage(int num);
 void robPrintAscii(void);
-
+void space(int s);
 #endif
