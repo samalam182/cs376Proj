@@ -26,21 +26,24 @@
 int main(int argc, const char * argv[])
 {
   // Check the command line arguments.
-  if(argc != 2) {
-    printf("usage: %s <number> \n", argv[0]);
-    return -1;
-  }
+  if (argc != 2)
+    {robPrintAscii();
+      return -1;}    
 
   // Convert the command-line argument to a number.
   int num = atoi(argv[1]);
 
   robPrintAscii();
 
+  if (argv[1] != NULL)
+    {
+    
   robPrintMessage(num);
-
+      
+ 
   dewhitt17();
  
   estes17();
-
+    }
   return 0;
 }
