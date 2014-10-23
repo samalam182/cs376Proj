@@ -48,14 +48,25 @@ void robPrintMessage(int num)
  */
 void robPrintAscii(void)
 {
-
- 
-     
-
-  printf("    -_-    \n"
-	 "   [@_@]   \n"
-
-	 "  /|___|\\  \n"
-         "   d   b   "); 
-
+  int i = 1;
+  for(i; i < 4; i++)
+    {
+      space(i);
+      printf("    -_-    \n");
+      space(i);
+      printf("   [@_@]   \n");
+      space(i);
+      printf("  /|   |\\   \n");
+      space(i);
+      printf("   d   b   \n");
+    }
+}
+void space(int s)
+{
+  int i = 0;
+  for(i; i<s; i++)
+    {
+      printf("  ");
+    }
+	
 }
